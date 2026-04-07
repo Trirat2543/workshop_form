@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Strategic Trends Assessment | Strategic Intel</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#00248a",
+                        "on-primary": "#ffffff",
+                        "background": "#f9f9f9",
+                        "surface": "#ffffff",
+                        "on-surface": "#1a1c1c",
+                        "on-surface-variant": "#444653",
+                        "outline-variant": "#c5c5d6",
+                        "primary-container": "#1a3baf",
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; background-color: #f9f9f9; }
+        h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+
+        .rating-group input[type="radio"] { display: none; }
+        .rating-group label {
+            display: flex; align-items: center; justify-content: center;
+            width: 40px; height: 40px; border-radius: 50%;
+            border: 2px solid #e2e2e2; cursor: pointer;
+            font-weight: 600; transition: all 0.2s ease; color: #444653;
+        }
+        .rating-group input[type="radio"]:checked + label {
+            background-color: #00248a; border-color: #00248a;
+            color: #ffffff; box-shadow: 0 4px 12px rgba(0, 36, 138, 0.2);
+        }
+        .rating-group label:hover { border-color: #00248a; color: #00248a; }
+        
+        #success-section { display: none; }
+    </style>
+</head>
+<body class="text-on-surface min-h-screen py-12 px-4">
+
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { document.getElementById('main-form').style.display='none'; document.getElementById('success-section').style.display='block'; window.scrollTo(0,0); }"></iframe>
+
+<main class="max-w-4xl mx-auto">
+    
+    <div id="main-form">
+        <header class="mb-12 text-center">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold mb-6 uppercase tracking-wider">
+                <span class="material-symbols-outlined text-xs">verified</span>
+                Annual Strategic Review
+            </div>
+            <h1 class="text-4xl md:text-5xl font-extrabold text-on-surface tracking-tight mb-4">Strategic Trends Assessment</h1>
+            <p class="text-on-surface-variant text-lg leading-relaxed max-w-2xl mx-auto">
+                Identify and evaluate high-velocity trends impacting our organizational trajectory.
+            </p>
+        </header>
+
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSefe8LUKTnAGCV0TVEZhsR3vg9S9jxJsP_hidsSCBsISbXNyg/formResponse" 
+              method="POST" 
+              target="hidden_iframe" 
+              onsubmit="submitted=true;" 
+              class="space-y-6">
+
+            <section class="bg-surface rounded-2xl p-8 border border-outline-variant/10 shadow-sm transition-all hover:shadow-md">
+                <div class="flex items-start gap-4 mb-8">
+                    <div class="p-3 bg-primary/5 rounded-xl text-primary"><span class="material-symbols-outlined">thermostat</span></div>
+                    <div><h2 class="text-xl font-bold">1. Climate Change</h2></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <div class="space-y-4">
+                        <label class="text-sm font-semibold">Feasibility</label>
+                        <div class="flex justify-between rating-group">
+                            <input id="q1f1" name="entry.746152350" type="radio" value="1" required/><label for="q1f1">1</label>
+                            <input id="q1f2" name="entry.746152350" type="radio" value="2"/><label for="q1f2">2</label>
+                            <input id="q1f3" name="entry.746152350" type="radio" value="3" checked/><label for="q1f3">3</label>
+                            <input id="q1f4" name="entry.746152350" type="radio" value="4"/><label for="q1f4">4</label>
+                            <input id="q1f5" name="entry.746152350" type="radio" value="5"/><label for="q1f5">5</label>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <label class="text-sm font-semibold">Impact</label>
+                        <div class="flex justify-between rating-group">
+                            <input id="q1i1" name="entry.939083894" type="radio" value="1" required/><label for="q1i1">1</label>
+                            <input id="q1i2" name="entry.939083894" type="radio" value="2"/><label for="q1i2">2</label>
+                            <input id="q1i3" name="entry.939083894" type="radio" value="3"/><label for="q1i3">3</label>
+                            <input id="q1i4" name="entry.939083894" type="radio" value="4" checked/><label for="q1i4">4</label>
+                            <input id="q1i5" name="entry.939083894" type="radio" value="5"/><label for="q1i5">5</label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-surface rounded-2xl p-8 border border-outline-variant/10 shadow-sm">
+                <div class="flex items-start gap-4 mb-8">
+                    <div class="p-3 bg-primary/5 rounded-xl text-primary"><span class="material-symbols-outlined">memory</span></div>
+                    <div><h2 class="text-xl font-bold">2. AI & Digital Transformation</h2></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <div class="space-y-4">
+                        <label class="text-sm font-semibold">Feasibility</label>
+                        <div class="flex justify-between rating-group">
+                            <input id="q2f1" name="entry.2065514777" type="radio" value="1" required/><label for="q2f1">1</label>
+                            <input id="q2f2" name="entry.2065514777" type="radio" value="2"/><label for="q2f2">2</label>
+                            <input id="q2f3" name="entry.2065514777" type="radio" value="3"/><label for="q2f3">3</label>
+                            <input id="q2f4" name="entry.2065514777" type="radio" value="4"/><label for="q2f4">4</label>
+                            <input id="q2f5" name="entry.2065514777" type="radio" value="5" checked/><label for="q2f5">5</label>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <label class="text-sm font-semibold">Impact</label>
+                        <div class="flex justify-between rating-group">
+                            <input id="q2i1" name="entry.717093395" type="radio" value="1" required/><label for="q2i1">1</label>
+                            <input id="q2i2" name="entry.717093395" type="radio" value="2"/><label for="q2i2">2</label>
+                            <input id="q2i3" name="entry.717093395" type="radio" value="3"/><label for="q2i3">3</label>
+                            <input id="q2i4" name="entry.717093395" type="radio" value="4"/><label for="q2i4">4</label>
+                            <input id="q2i5" name="entry.717093395" type="radio" value="5" checked/><label for="q2i5">5</label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-surface rounded-2xl p-8 border border-outline-variant/10 shadow-sm">
+                <div class="flex items-start gap-4 mb-8">
+                    <div class="p-3 bg-primary/5 rounded-xl text-primary"><span class="material-symbols-outlined">elderly</span></div>
+                    <div><h2 class="text-xl font-bold">3. Aging Society</h2></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <div class="space-y-4">
+                        <label class="text-sm font-semibold">Feasibility</label>
+                        <div class="flex justify-between rating-group">
+                            <input id="q3f1" name="entry.1568466486" type="radio" value="1" required/><label for="q3f1">1</label>
+                            <input id="q3f2" name="entry.1568466486" type="radio" value="2"/><label for="q3f2">2</label>
+                            <input id="q3f3" name="entry.1568466486" type="radio" value="3"/><label for="q3f3">3</label>
+                            <input id="q3f4" name="entry.1568466486" type="radio" value="4" checked/><label for="q3f4">4</label>
+                            <input id="q3f5" name="entry.1568466486" type="radio" value="5"/><label for="q3f5">5</label>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <label class="text-sm font-semibold">Impact</label>
+                        <div class="flex justify-between rating-group">
+                            <input id="q3i1" name="entry.1083967966" type="radio" value="1" required/><label for="q3i1">1</label>
+                            <input id="q3i2" name="entry.1083967966" type="radio" value="2"/><label for="q3i2">2</label>
+                            <input id="q3i3" name="entry.1083967966" type="radio" value="3" checked/><label for="q3i3">3</label>
+                            <input id="q3i4" name="entry.1083967966" type="radio" value="4"/><label for="q3i4">4</label>
+                            <input id="q3i5" name="entry.1083967966" type="radio" value="5"/><label for="q3i5">5</label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-surface rounded-2xl p-8 border border-outline-variant/10 shadow-sm">
+                <div class="flex items-start gap-4 mb-8">
+                    <div class="p-3 bg-primary/5 rounded-xl text-primary"><span class="material-symbols-outlined">groups</span></div>
+                    <div><h2 class="text-xl font-bold">4. Social Disruption</h2></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <div class="space-y-4">
+                        <label class="text-sm font-semibold">Feasibility</label>
+                        <div class="flex justify-between rating-group">
+                            <input id="q4f1" name="entry.1184644012" type="radio" value="1" required/><label for="q4f1">1</label>
+                            <input id="q4f2" name="entry.1184644012" type="radio" value="2" checked/><label for="q4f2">2</label>
+                            <input id="q4f3" name="entry.1184644012" type="radio" value="3"/><label for="q4f3">3</label>
+                            <input id="q4f4" name="entry.1184644012" type="radio" value="4"/><label for="q4f4">4</label>
+                            <input id="q4f5" name="entry.1184644012" type="radio" value="5"/><label for="q4f5">5</label>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <label class="text-sm font-semibold">Impact</label>
+                        <div class="flex justify-between rating-group">
+                            <input id="q4i1" name="entry.111947081" type="radio" value="1" required/><label for="q4i1">1</label>
+                            <input id="q4i2" name="entry.111947081" type="radio" value="2"/><label for="q4i2">2</label>
+                            <input id="q4i3" name="entry.111947081" type="radio" value="3"/><label for="q4i3">3</label>
+                            <input id="q4i4" name="entry.111947081" type="radio" value="4" checked/><label for="q4i4">4</label>
+                            <input id="q4i5" name="entry.111947081" type="radio" value="5"/><label for="q4i5">5</label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-surface rounded-2xl p-8 border border-outline-variant/10 shadow-sm">
+                <div class="flex items-start gap-4 mb-8">
+                    <div class="p-3 bg-primary/5 rounded-xl text-primary"><span class="material-symbols-outlined">public</span></div>
+                    <div><h2 class="text-xl font-bold">5. ASEAN Landscape</h2></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <div class="space-y-4">
+                        <label class="text-sm font-semibold">Feasibility</label>
+                        <div class="flex justify-between rating-group">
+                            <input id="q5f1" name="entry.1123593428" type="radio" value="1" required/><label for="q5f1">1</label>
+                            <input id="q5f2" name="entry.1123593428" type="radio" value="2"/><label for="q5f2">2</label>
+                            <input id="q5f3" name="entry.1123593428" type="radio" value="3"/><label for="q5f3">3</label>
+                            <input id="q5f4" name="entry.1123593428" type="radio" value="4" checked/><label for="q5f4">4</label>
+                            <input id="q5f5" name="entry.1123593428" type="radio" value="5"/><label for="q5f5">5</label>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <label class="text-sm font-semibold">Impact</label>
+                        <div class="flex justify-between rating-group">
+                            <input id="q5i1" name="entry.1680327114" type="radio" value="1" required/><label for="q5i1">1</label>
+                            <input id="q5i2" name="entry.1680327114" type="radio" value="2"/><label for="q5i2">2</label>
+                            <input id="q5i3" name="entry.1680327114" type="radio" value="3"/><label for="q5i3">3</label>
+                            <input id="q5i4" name="entry.1680327114" type="radio" value="4"/><label for="q5i4">4</label>
+                            <input id="q5i5" name="entry.1680327114" type="radio" value="5" checked/><label for="q5i5">5</label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="pt-10 flex flex-col md:flex-row items-center justify-end gap-6">
+                <button class="w-full md:w-auto px-12 py-4 bg-primary text-on-primary font-bold rounded-xl shadow-lg shadow-primary/30 hover:scale-[1.02] active:scale-[0.98] transition-all" type="submit">
+                    Submit Analysis
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div id="success-section" class="max-w-xl mx-auto text-center py-20 bg-white rounded-3xl border border-outline-variant/10 shadow-xl">
+        <span class="material-symbols-outlined text-6xl text-green-500 mb-6">check_circle</span>
+        <h2 class="text-3xl font-extrabold text-on-surface mb-4">Submission Successful</h2>
+        <p class="text-on-surface-variant mb-10">Your strategic analysis has been recorded securely.</p>
+        <button onclick="window.location.reload();" class="px-8 py-3 bg-primary/10 text-primary font-bold rounded-lg hover:bg-primary/20 transition-all">
+            Submit New Assessment
+        </button>
+    </div>
+
+    <footer class="mt-20 py-8 text-center">
+        <p class="text-xs text-slate-400 font-medium uppercase tracking-widest">
+            Confidential Intelligence Document © 2026 Strategic Intel Group
+        </p>
+    </footer>
+</main>
+</body>
+</html>
